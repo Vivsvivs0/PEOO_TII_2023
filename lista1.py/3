@@ -1,0 +1,26 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+s = 0
+m = 0
+if a % 2 == 0:
+  s += a
+if b % 2 == 0:
+  s += b
+if c % 2 == 0:
+  s += c
+if d % 2 == 0:
+  s += d
+print(f'Soma dos pares = {s}')  
+
+if a % 2 != 0:
+  m += a
+if b % 2 != 0:
+  m += b
+if c % 2 != 0:
+  m += c
+if d % 2 != 0:
+  m += d
+print(f'Soma dos ímpares = {m}')
+  
