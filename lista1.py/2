@@ -1,0 +1,27 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+media = (a + b + c + d) / 4
+print(f'Média = {media:.0f}')
+
+print('Números menores que a média:')
+if a < media:
+  print(a)
+if b < media:
+  print(b)
+if c < media:
+  print(c)
+if d < media:
+  (d)
+
+print('Números maiores ou iguais à média')
+if a >= media:
+  print(a)
+if b >= media:
+  print(b)
+if c >= media:
+  print(c)
+if d >= media:
+  print(d)
