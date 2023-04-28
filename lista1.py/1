@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+maior = a
+
+if b > maior:
+  print(f'Maior = {b}')
+elif b == maior:
+  print("Números iguais")
+else: 
+  print(f'Maior = {a}')
