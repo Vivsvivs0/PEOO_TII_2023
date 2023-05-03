@@ -1,0 +1,29 @@
+bia = input()
+bel = input()
+kil = input()
+
+if bia == 'vertebrado':
+  if bel == 'ave':
+    if kil == 'carnivoro':
+      print('aguia')
+    elif kil == 'onivoro':
+      print('pomba')
+    
+  elif bel == 'mamifero':
+    if kil == 'onivoro':
+      print('homem')
+    elif kil == 'herbivoro':
+      print('vaca')
+
+if bia == 'invertebrado':
+  if bel == 'inseto':
+    if kil == 'hematofago':
+      print('pulga')
+    elif kil == 'herbivoro':
+      print('lagarta')
+
+  elif bel == 'anelideo':
+    if kil == 'hematofago':
+      print('sanguessuga')
+    elif kil == 'onivoro':
+      print('minhoca')
